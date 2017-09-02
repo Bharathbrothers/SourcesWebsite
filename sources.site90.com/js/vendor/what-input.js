@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+          Resources..!
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+<meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style>
+.menu{
+  list-style-type: none;
+  text-decoration:none;
+  width:100%;
+  background-color:#001f3f;
+  height: 80px;
+  font-size: 2em;
+  font-weight: bold;
+  color:white;
+  float: left;
+  margin-top:0px;
+  position:fixed;
+  scroll-behavior: smooth;
+  flex-flow: column;
+   top: 0px;
+   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+font-family: 'Raleway', sans-serif;
+}
+.menu>a{
+  padding-left: 8px;
+  text-decoration: none;
+font-family: 'Raleway', sans-serif;
+}
+.head{
+  display:inline-block;
+  top: 0px;
+  position:fixed;
+}
+.head.login{
+  float: right;
+  padding-right: 10px;
+}
+button{
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  padding: 13px 15px 13px 15px;
+  /*float: left;*/
+  margin-left: 15px;
+  margin-top: 5px;
+  background: #1d93c0;
+  padding-left: 15px;
+  font-weight: bold;
+  color: white;
+  border:none;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  outline-width: thin;
+font-family: 'Raleway', sans-serif;
+  }
+  button:hover{
+    background-color:#4c1fdb;
+    padding-left:13px;
+    padding-right:13px;
+  }
+button:hover{
+padding:17px;
+}
+  .column>button{
+    padding-top: 3px;
+
+  }
+
+li{
+  list-style-type: none;
+font-family: 'Raleway', sans-serif;
+}
+ul{
+  float: left;
+  padding-right: 30px;
+}
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+  min-width:inherit;
+font-family: 'Raleway', sans-serif;
+}
+h2{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: sans-serif;
+  min-width: inherit;
+font-family: 'Raleway', sans-serif;
+}
+.leftline{
+  float: left;
+  width: 500px;
+}
+.head.menu{
+  float: left;
+}
+h3{
+  float:left;
+  width: 280px;
+  font-family: sans-serif;
+  color:#090707;
+  min-width: inherit;
+font-family: 'Raleway', sans-serif;
+}
+.rightline{
+  float:right;
+  width: 500px;
+  align-content: space-between;
+}
+.oneline{
+  width: auto;
+
+}
+
+h4{
+  text-decoration: none;
+  align-content:center;
+    color:white;
+  font-family: sans-serif;
+  min-width: inherit;
+font-family: 'Raleway', sans-serif;
+}
+h4:hover{
+color:green;
+}
+./* HACK:  */
+.hack{
+  background-color: green;
+  border-top:10s;
+}
+br{
+  height: 5px;
+}
+.container{
+ background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+p{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  min-width: inherit;
+font-family: 'Raleway', sans-serif;
+}
+.column{
+  width: inherit;
+  float: left;
+  table-layout:fixed;
+  min-width:auto;
+}
+.column>li{
+  padding-bottom: 3px;
+  min-width: inherit;
+}
+.subhead{
+float: left;
+background-color:#8490a3;
+width: 100px;
+height: 200px;
+min-width: inherit;
+}
+
+footer{
+  text-align:center;
+  background-color:#111111;
+  color: white;
+  font-family: sans-serif;
+  width:100%;
+  height: 100px;
+  font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+  position:relative;
+  scroll-behavior: smooth;
+  text-align: center;
+  vertical-align: middle;
+  min-width: inherit;
+font-family: 'Raleway', sans-serif;
+}
+/*.searchEngine{
+  max-width:all;
+  max-height: 200px;
+}*/
+/*nav>li{
+  float: left;
+}*/
+.add{
+  width: 250px;
+  height: 300px;
+}
+.allbut{
+  display: grid;
+  grid-template-columns: fit-content(30%) fit-content(30%) fit-content(30%);
+  grid-auto-flow:row;
+}
+.head{
+  display: inline-block;
+}
+a:hover{
+  color:#F62459;
+  border: 1px solid #9A12B3;
+  padding: 2px;
+text-size:1.2em;
+}
+.cont {
+    display: inline-block;
+    cursor: pointer;
+    float:right;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+h1{
+padding-top:80px;
+padding-bottom:30px;
+}
+.links{
+float:center;
+}
+.column{
+justify-content: center;
+align-items: center;
+}
+
+
+</style>
+</head>
+<body class="container">
+<div class="head">
+  <nav class="menu">
+    <a href="upload.html"> Home</a>
+    <a href="contact.php">Contact</a>
+   
+    <a href="video-tut.php">Tutorials </a>
+    <a href="login2.php" class="login"> login</a>
+    <a href="fullsize.html"> About </a>
+  </nav>
+  
+</div>
+<div class="cont" onclick="myFunction(this)">
+  <div class="bar1">-</div>
+  <div class="bar2">-</div>
+  <div class="bar3">-</div>
+</div>
+
+      <h1 style="color: white"> Stark Solutions </h1>
+     
+      <p>
+          This is the right place for all those who are interested in programming
+          and other things  but not finding the right resources for their studies.
+      </p>
+    </br>
+<br>
+<div class="allbut">
+<div class="column">
+    <h4 class="sub-head"> Programming.. </h4>
+  <ul>
+        <li> <button type="button" onclick="parent.open('https://www.sololearn.com')"> SoloLearn  </button></li>
+        <li> <button type="button" onclick="parent.open('https://www.javatpoint.com/')"> JavatPoint  </button></li>
+        <li> <button type="button" onclick="parent.open('http://www.c4learn.com/')"> c4Learn  </button></li>
+        <li> <button type="button"onclick="parent.open('https://www.hackerrank.com/')"> Hackerrank  </button></li>
+        <li> <button type="button"onclick="parent.open('https://www.programminghub.io/')"> Program Hub  </button></li>
+        <li> <button type="button" onclick="parent.open('https://cs50.harvard.edu/')"> CS50  </button></li>
+        <li> <button type="button"  onclick="parent.open('https://stackoverflow.com/')"> StackOverFlow  </button></li>
+    </ul>
+</div>
+
+<div class="column">
+<h4  class="sub-head">Online Tutorials </h4>
+<ul>
+    <li> <button type="button" onclick="parent.open('https://www.coursera.org/')">Coursera </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.edx.org/')"> Edx  </button></li>
+    <li> <button type="button" onclick="parent.open('https://teamtreehouse.com/')"> treehouse  </button></li>
+    <li> <button type="button" onclick="parent.open('https://in.udacity.com/')"> Udacity  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.html5rocks.com/en/')"> Html5Rocks  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.udemy.com/')"> Udemy </button></li>
+    <li> <button type="button" onclick="parent.open('https://thenewboston.com/')"> TheNewBoston  </button></li>
+</ul>
+</div>
+<div class="column">
+<h4  class="sub-head">Useful Sites</h4>
+<ul>
+    <li> <button type="button" onclick="parent.open('https://codepen.io/')">CodePen </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.teluskolearning.com/')"> Telusko L  </button></li>
+    <li> <button type="button" onclick="parent.open('http://thegateacademy.com/')"> GateAcademy  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.visionias.com/')"> VisionIas  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.unacademy.com/')"> Unacademy  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.ravindrababuravula.com/')"> RavindraBabu </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.iasbaba.com/')"> IasBaba  </button></li>
+</ul>
+</div>
+</div>
+<div class="allbut">
+<div class="column">
+<h4  class="sub-head">books</h4>
+<ul>
+    <li> <button type="button" onclick="parent.open('https://www.tutorialspoint.com/')">Tutorialspoint </button></li>
+    <li> <button type="button"onclick="parent.open('https://ocw.mit.edu/index.htm')"> MitOpenCourse  </button></li>
+    <li> <button type="button"onclick="parent.open('https://github.com/')"> Github  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.khanacademy.org/')"> KhanAcademy  </button></li>
+    <li> <button type="button"onclick="parent.open('http://blog.agupieware.com/p/online-learning.html')"> GupieWare  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.freecodecamp.org/')"> FreecodeCamp </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.codeavengers.com/')"> CodeAvengers </button></li>
+</ul>
+</div>
+
+<div class="column">
+<h4  class="sub-head">Coding Websites</h4>
+<ul>
+      <li> <button type="button" onclick="parent.open('https://www.w3schools.com/html/')">W3schools </button></li>
+      <li> <button type="button" onclick="parent.open('https://www.hackerearth.com/challenges/')"> HackerEarth </button></li>
+      <li> <button type="button" onclick="parent.open('https://www.hackerone.com/')"> HackerOne  </button></li>
+      <li> <button type="button" onclick="parent.open('https://www.techgig.com/')"> Techgig  </button></li>
+      <li> <button type="button" onclick="parent.open('https://www.codecademy.com/learn')"> CodeAcademy  </button></li>
+      <li> <button type="button" onclick="parent.open('https://www.codechef.com/')"> codechef</button></li>
+      <li> <button type="button" onclick="parent.open('https://stackoverflow.com/')"> StackOverFlow  </button></li>
+</ul>
+</div>
+<div class="column">
+<h4  class="sub-head">Social Media </h4>
+<ul>
+    <li> <button type="button" onclick="parent.open('https://www.facebook.com/')">Facebook </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.instagram.com/')"> Instagram </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.linkedin.com/')"> Linkedin </button></li>
+    <li> <button type="button" onclick="parent.open('https://twitter.com/')"> Twitter </button></li>
+    <li> <button type="button" onclick="parent.open('https://hike.in/')">Hike  </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.whatsapp.com/')"> Whatsapp </button></li>
+    <li> <button type="button" onclick="parent.open('https://www.snapchat.com/')"> SnapChat  </button></li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<div class="links">
+<h4> Some Typing Websites </h4>
+  <button type="button" onclick="parent.open('https://www.typingbolt.com/')">Bolt Typing </button>
+  <button type="button" onclick="parent.open('https://www.typing.com/')"> Typing </button>
+  <button type="button" onclick="parent.open('https://www.typingclub.com/')"> TypingClub </button>
+</div>
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <footer>
+      &copy Stark Solutions 2017.
+    </footer>
+</body>
+</html>
